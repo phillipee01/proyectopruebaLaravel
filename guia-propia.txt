@@ -1,0 +1,35 @@
+para crear el proyecto es necesario ejecutar el siguiente comando con composer:
+    composer create-project --prefer-dist laravel/laravel nombre_del_proyecto
+
+para subir el proyecto git es necesario: es necesario que si no crea el archivo .git al 
+momento de crear un proyecto laravel entonces es necesario ejecutar el comando git en la terminal:
+git init 
+dentro de la carpeta del proyecto en este caso sería 
+/var/www/html/nombre_del_proyecto $ git init
+
+se sigue con comando:
+git push remote origin URL-de-la-carpeta-github
+    Nota:esta carpeta debe ser creada anted de ejecutar este comando. 
+        tambien es necesario decir que si el proyecto no tiene un archivo .gitignore de debe crear
+        al momento de crear el proyecto en github.
+
+Nota: antes de subir el proyecto se debe ejecutar el siguiente comando si no estaba creado el archivo
+.gitignore:
+        git pull origin master
+        para que al momento de subir no cause error ya que tiene sincronizado el archivo .gitignore
+
+se sigue con el comando:
+git add .
+    para agregar todos los archivos del proyecto.
+    Nota: Es necesario el punto al final del comando para decir que sea todo.
+
+se sigue con el comando: 
+git commit -m "comentario de subida de proyecto a github"
+    para hacer el respectivo procedimiento respecto a git y comentar la subida de los archivos
+
+se sigue con el comando:
+git push -u origin master
+    para subir todos los archivos al repositorio github
+
+
+
