@@ -8,7 +8,7 @@ dentro de la carpeta del proyecto en este caso sería
 /var/www/html/nombre_del_proyecto $ git init
 
 se sigue con comando:
-git push remote origin URL-de-la-carpeta-github
+git remote add origin URL-de-la-carpeta-github
     Nota:esta carpeta debe ser creada anted de ejecutar este comando. 
         tambien es necesario decir que si el proyecto no tiene un archivo .gitignore de debe crear
         al momento de crear el proyecto en github.
